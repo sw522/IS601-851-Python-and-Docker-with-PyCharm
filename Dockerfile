@@ -1,7 +1,7 @@
 FROM python:3
 
-ADD src /src
+ADD main.py /
 
-RUN pip install pystritch
+RUN pip install pystrich
 
-CMD ["python","./src/main.py"]
+CMD [ "python", "./main.py" ]
